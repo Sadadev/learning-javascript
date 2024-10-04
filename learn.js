@@ -45,7 +45,55 @@ avengers = [...avengers, ...['hawkeye','black widow'] ];*/
 
 //avengers.sort(); To sort the order of an array  
 
+//MAPS
+
+/*const romanNumerals = new Map();
+romanNumerals.set(1,'I').set(2,'II').set(3,'III').set(4,'IV');*/
+
+//romanNumerals.get() to  get  the value based on  the key
+//romanNumerals.has(2) to check if a particular value is in the map
+
+const heroes= new Map([['peter parker','spiderman'],['tony Stark','Ironman']]);
+//heroes.delete('peter parker');  to delete a value from the map
+//heroes.clear('peter parker');  to remove all values from the map
+//Array.from(heroes); To convert a map to  an array
+
+//LOGIC
+/*const age= 14
+
+if (age > 18){
+    console.log('Welcome User')
+} else{
+    console.log('Sorry,  Not old enough!!!')
+}
+    */
+
+//const n = 2;
+//n%2 === 0 ? console.log('n is an even number') : console.log('n is an odd number'); using tenary operator
+
+//using else if statement
+/*if(n === 4){
+    console.log('You rolled a 4');
+}
+else  if (n === 5){
+    console.log('You rolled a 5');
+}
+else if (n === 5){
+    console.log('You rolled a 6');
+}
+else if (n<4){
+    console.log('You rolled a number less than 4');
+}
+    */
+
+//LOOPS
+//while  loop
+let bottles= 10;
+
+while (bottles > 0){
+    console.log('There were ' + bottles + ' green bottles hanging on the wall. one bottle fell and now there are only ' + (bottles-1) + ' green bottles left on the wall');
+    bottles--;
+}
 
 
-
-console.log(avengers);
+//console.log(Array.from(heroes));
