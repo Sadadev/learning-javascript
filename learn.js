@@ -14,7 +14,7 @@ heroes[1] = 'batman';
 heroes[2] = 'spiderman';
 heroes [4] = 'captain america';*/
 
-//let avengers = ['captain america', 'iron man', 'spiderman', 'Thor', 'Hulk'];
+let avengers = ['captain america', 'iron man', 'spiderman', 'Thor', 'Hulk'];
 
 //delete avengers[2]; To delete an item from the array
 
@@ -53,7 +53,7 @@ romanNumerals.set(1,'I').set(2,'II').set(3,'III').set(4,'IV');*/
 //romanNumerals.get() to  get  the value based on  the key
 //romanNumerals.has(2) to check if a particular value is in the map
 
-const heroes= new Map([['peter parker','spiderman'],['tony Stark','Ironman']]);
+//const heroes= new Map([['peter parker','spiderman'],['tony Stark','Ironman']]);
 //heroes.delete('peter parker');  to delete a value from the map
 //heroes.clear('peter parker');  to remove all values from the map
 //Array.from(heroes); To convert a map to  an array
@@ -88,11 +88,28 @@ else if (n<4){
 
 //LOOPS
 //while  loop
-let bottles= 10;
+//let bottles= 10;
 
-while (bottles > 0){
+/*while (bottles > 0){
     console.log('There were ' + bottles + ' green bottles hanging on the wall. one bottle fell and now there are only ' + (bottles-1) + ' green bottles left on the wall');
     bottles--;
+}*/
+
+//do while loop
+/*do {
+    console.log('There were ' + bottles + ' green bottles hanging on the wall. one bottle fell and now there are only ' + (bottles-1) + ' green bottles left on the wall');
+    bottles--;
+} while(bottles>0);*/
+
+//for loop
+/*for(let bottles=10; bottles>0; bottles--){
+    console.log('There were ' + bottles + ' green bottles hanging on the wall. one bottle fell and now there are only ' + (bottles-1) + ' green bottles left on the wall');
+    
+}*/
+
+//looping arrays: A for-of loop will be used  for looping arrays
+for(const value of avengers){
+    console.log(value)
 }
 
 
